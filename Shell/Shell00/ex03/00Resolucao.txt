@@ -1,1 +1,10 @@
+o ex pede para criarmos uma linha de comando a se digitar para listar os arquivos e pastas das pasta atual, mas não os arquivos
+ocultos, "." ou "..". Separar por vírgulas, data de acesso e de maneira que sejam seguidas por uma barra.
 
+Para resolver este exercício é necessário ler o manual do -ls
+
+man ls
+
+m, irá colocar as vírgulas
+u, irá organizar por data de acesso
+p, irá colocar as barras

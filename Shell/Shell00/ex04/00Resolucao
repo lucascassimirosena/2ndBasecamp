@@ -1,0 +1,19 @@
+Neste exercício devemos exibir os 5 últimos commits.
+Leia o manual do git log para melhor entendimento e do prretty.
+
+para isto usaremos o comando 
+
+git log - que irá exibir o log dos commits
+--pretty=%H - que irá formatar os logs, o %H fará que somente o hash seja exibido
+-n 5 - irá limitar o número de commits em 5
+
+
+existem outras versões do mesmo comando como o --formatar
+além disso, um simples 5 também limita os commits.
+
+
+Para entregar o arquivo conforme o pdf faça os 5 comits necessários para aparecer
+conforme o exemplo.
+
+Se você falhar na entrega, deverá comitar este arquivo novamente antes
+da próxima entrega.

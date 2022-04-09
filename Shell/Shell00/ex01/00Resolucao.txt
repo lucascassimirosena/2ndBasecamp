@@ -1,0 +1,47 @@
+Criado por lucassim
+
+Neste exercício é necessário criar o arquivo testShell00 na pasta de entrega.
+
+Além disso é necessario alterar a permissões, data e hora do arquivo para que esteja exatamente igual ao exemplo.
+Um ano será considerado como correto ao invés do horário.
+
+para poder verificar as informações detalhadas dos arquivos presentes no diretório digitamos ls -l
+esta informação será mostrada:
+-r--r-xr-x 1 XA XB 40 Jun 1 23:42 testShell00
+
+ok vamos entender o que significa essas letras
+o primeiro "-" indica que isto é um arquivo, diretórios são mostrados com "d"
+
+depois desse primeiro caractere agora você deve tratar as letras como 3 grupos de 3
+se este houvesse permissão total para esse arquivo ele estaria desta forma:
+-rwxrwxrwx XA XB 40 Jun 1 23:42 testShell00
+
+essas letras são permissões, o primeiro grupo é referente ao usuário XA e elas significam:
+r: permissão de leitura
+w: permissão de edição
+x: permissão de execução
+
+o segundo grupo de letras se referem a XB, o grupo do usuário e o terceiro a outros.
+o 40 é o tamanho do arquivo. e o restante é a data e hora da modificação.
+
+Ok, agora, para modificar as permissões precisamos entender que cada uma dessas letras tem um valor
+r vale 4
+w vale 2
+x vale 1
+
+perceba que a soma dessas letras da o total de 7 portanto para modificar as permissões usariamos 
+o comando chmod + a soma dos trios de permissões. Se quisessemos colocar permissões totais escreveríamos:
+chmod 777 testShell00
+-rwxrwxrwx
+se quisessmos apenas deixar a permissão de leitura desse arquivo para todos:
+chmod 444 testShell00
+-r--r--r--
+se quisessemos deixar leitura e execução para o primerio, somente edição para o segundo e permissão total ao terceiro:
+chmod 527 testShell00
+-r-x-w-rwx
+
+para alterar o tamanho, basta saber que cada letra ou caractere corresponde a 1 bit, desta forma basta colocar 40bits dentro do arquivo
+escrevendo qualquer coisa nele, ou dando enter até a 40 linha, ou 40 espaço whatever.
+
+para alterar a data digitamos
+touch -t ANOMESDIAHORAMINUTO testShell00

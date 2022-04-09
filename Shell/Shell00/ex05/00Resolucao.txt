@@ -1,0 +1,12 @@
+O exercicio diz que o script que devemos criar deve
+retornar  a  lista de arquivos existentes ignorados pelo
+seu reposítorio git atualmente presentes no seu repositório local.
+
+para isso, por se tratar de lista vamos usar O
+git ls-files: https://git-scm.com/docs/git-ls-files
+
+git ls-files:
+-o ou --other: mostra todos os arquivos não comitados e dos não comitados mostra os arquivos ignorados.
+
+-i ou --ignored: mostra todos os ignorados.
+--exclude-standard é necessário utilizar ao usar a combinação com -i.

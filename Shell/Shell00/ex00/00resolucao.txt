@@ -1,0 +1,24 @@
+Criado por lucassim
+
+Para solver diversos exercícois de Shell você deve faze-lo  utilizando o terminal. 
+Abrir o terminal: CRTL + Shift + '
+
+Existem alguns comandos básicos que você precisa saber para navegar por ele.
+
+pwd - mostra aonde você está
+cd <diretório> - entra no diretorio indicado
+cd .. - sai do diretorio atual
+mkdir - "make directory - cria pastas"
+rmdir - "exclui pastas"
+rm <arquivo> - deleta o arquivo indicado
+
+O primeiro exercíco pede para que você crie um arquivo z, que, quando se faz um cat acima, exibe "Z" seguido pela quebra de linha.
+
+para o primeiro exercício usaremos um comando bem útil para diversas coisas
+"Echo" 
+
+escreva dessa forma:
+
+Echo "Z" > z 
+
+este comando irá escrever "Z" dentro (>) do novo arquivo que se chamará z.

@@ -1,0 +1,45 @@
+Criado por lucassim
+
+Ok este exercício é muito parecido com o ex01 e caso tenha alguma dúvida sobre modificações, consulte o ex anteior pois usamos o mesmo comando CHMOD.
+A pasta ex02 deve conter apenas o exo2.tar 
+
+Você irá criar todos os arquvios e pastas descritos no exemplo, e ao visualizar as pastas do diretoório com ls -l eles
+devem mostrar exatamente o mesmo que o exemplo.
+
+Este exercício contem algumas etapas e entender alguns conceitos.
+Primeiro, note que o test6 é um soft link do test0 e que o test5 é um hardlink do test3.
+Também note que o test0 e o test2 são diretórios.
+
+O que são soft links?
+Soft links são aquivos linkados a outro que funcionam como atalhos. Se o arquivo original for removido o acesso é perdido.
+
+O que são hard links?
+Todo link possue um endereço no HD chamado de Inode, o hardlink é como se fosse uma cópia um arquivo do outro e ambos apontarão
+para o mesmo inode, caso um seja deletado, o outro ainda existirá.
+
+Como crio soft links de um arquivo? ln -s arquivo1 arquivo2
+Como crio hard links de um arquivo? ln arquivo1 arquivo2
+Como altero a data de arquivos? touch -t ANOMESDIAHORAMINUTO arquivo
+Como altero a data de um soft link? touch -ht ANOMESDIAHORAMINUTO arquivo
+
+Estapas
+crie os diretórios
+crie os arquivos
+altere as permissões
+altere os tamanhos
+altere as datas 
+
+caso você esteja corrigindo, um comando que irá mostrar o inode dos arquivos para comparação é ls -li
+
+desta forma no final ele deve estar dessa forma:
+
+drwx--xr-x 2 XX XX XX Jun 1 20:47 test0
+-rwx--xr-- 1 XX XX 4 Jun 1 21:46 test1
+dr-x---r-- 2 XX XX XX Jun 1 22:45 test2
+-r-----r-- 2 XX XX 1 Jun 1 23:44 test3
+-rw-r----x 1 XX XX 2 Jun 1 23:43 test4
+-r-----r-- 2 XX XX 1 Jun 1 23:44 test5
+lXXXXXXXXX 1 XX XX 5 Jun 1 22:20 test6 -> test0
+
+após otodos os arquivos estarem na pasta basta executar o comando tar -cf exo2.tar * para criar o arquivo que será entregue
+delete os demais arquivos, você deve sempre deixar na pasta somente o solicitado pelo pdf.
