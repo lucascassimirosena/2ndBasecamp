@@ -30,14 +30,14 @@ Não esqueça de deixar apenas os arquivos solicitados no pdf na pasta ao enviar
 
 #include <unistd.h>
 {
-    char letters;   //criei uma variável do tipo char(caracteres) e a nomei de letter
-
-    letter = 97; //atribuí o valor 97(a) a essa variavel
-    while(letter <= 122) //aqui eu disse: enquanto letter for menor ou igual a 122
-    {
-        write(1, &letter, 1) //escreva 1 cractere que esta no endereço de letter e o mostre na saída principal
-        letter++; // e incremente +1
-    } //este bloco será executado até que o número incrementado alcance 122, ou seja, a letra 'z'.
+    char letters;                    //criei uma variável do tipo char(caracteres) e a nomei de letter
+                                    //
+    letter = 97;                   //atribuí o valor 97(a) a essa variavel
+    while(letter <= 122)          //aqui eu disse: enquanto letter for menor ou igual a 122
+    {                            //
+        write(1, &letter, 1)    //escreva 1 cractere que esta no endereço de letter e o mostre na saída principal
+        letter++;              // e incremente +1
+    }                         //este bloco será executado até que o número incrementado alcance 122, ou seja, a letra 'z'.
 }
 
 /* TESTE
