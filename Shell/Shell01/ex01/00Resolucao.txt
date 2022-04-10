@@ -3,10 +3,20 @@ Neste exercício precisaremos escrever uma linha de comando que determine
 e mostre a lista de grupos dos quais o login especificado na variável ambiente FT_USER é membro,
 separando por vírgulas e sem espaços.
 
+
+
+Antes disso, declare uma váriavel usando o FT_USER:
+FT_USER=coder
+
+isso mesmo, para declarar, basta separar o usuároi por um sinal de igual e colocar o valor do lado direot.
+Caso queira apagar o valor da váriável digite
+unset FT_USER
+e o valor dela será deletado.
+
 Utlizaremos o comando:
 groups $FT_USER | tr ' ' ',' | tr -d '\n'
 
-grouups irá imprimir os grupos da qual o usuário pertence
+groups irá imprimir os grupos da qual o usuário pertence
 $FT_USER se refere ao usuário atual
 tr - irá traduzir ou remover os caracteres, no exemplo ele está
 traduzindo espaços para vírgulas.

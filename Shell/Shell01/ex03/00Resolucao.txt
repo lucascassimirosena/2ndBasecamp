@@ -1,0 +1,9 @@
+Este exercício é um pouco parecido com o anterior, também usaremos
+find.
+
+O comando então é:
+find -type d,f | wc -l
+
+find, irá procurar os arquivos
+-type d,f - diz que o tipo de arquivos que procuramos são diretórios e arquivos
+wc -l irá contar o número de linhas listadas

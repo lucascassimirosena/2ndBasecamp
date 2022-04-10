@@ -1,0 +1,14 @@
+Ok, aqui no github você deve estar vendo o arquvo com outro nome e se perguntando o porquÊ de ele não estar conforme o pdf.
+Acontece, que eu subi o respositório a partir da minha máquina e não pude salvar o arquivo com o nome do pdf, mas você conseguirá faze-lo normalmente através do workspace.
+
+Então bora lá.
+
+A primeira coisa que você fará e criar um arquivo comum usando echo
+echo "42" > teste
+
+altere as permissões utilizando CHMOD e a data usando touch -também
+renomeie o arquivo usando mv e faça isso colocando uma "\" em cada caractere especial:
+mv nomeantigo \"\\\?\$\*\'MaRViN\'\*\$\?\\\"
+
+\ é um caractere de escape e podemos coloca-lo antes de cada caractere especial que desejamos que esteja no nome.
+

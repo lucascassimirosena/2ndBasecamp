@@ -1,0 +1,15 @@
+Neste exercício será necessário que criemos um comando que irá filtrar os endereços MAC conforme o exemplo dado pelo pdf
+
+f2:5b:44:60:f5:aa  txqueuelen 1000  (Ethernet)$
+8a:ec:c7:ac:30:81  txqueuelen 1000  (Ethernet)$
+ca:17:6b:da:36:fc  txqueuelen 1000  (Ethernet)$
+02:42:0a:02:03:0a  txqueuelen 0  (Ethernet)$
+
+para isso usaremos o comando 
+ifconfig | grep ether | awk '{print $2," " $3, $4," "$5}'
+
+ifconfig é usado para configurar a interfaçe de rede, ao digitar o comando ele irá mostrar a configuração de rede
+grep é o comando que usaremos para filtrar as linhas contendo "ether" que são as linhas que nos interessam
+awk '{print $2...}' irá formatar essa saída imprimindo as colunas 2, 3, 4 e 5 apenas. 
+note que exite também " " no comando print do awk. Isso adiciona um espaço extra pois no exemplo do pdf são 2 espaços.
+
