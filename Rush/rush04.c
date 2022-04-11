@@ -10,6 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/* Este projeto foi construido em conjunto com outros 2 campers das quais não posso divulgar informações
+por serem te cunho pessoal */
+
 void    ft_putchar(char c);
 
 void    print_line(int x, char begin, char middle, char end)
