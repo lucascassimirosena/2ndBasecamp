@@ -1,0 +1,40 @@
+Neste Rush, é solicitado a entrega de três arquivos: main.c, ft_putchar.c e rush0X.c.
+A função autorizada nele é write e deve ser entregue na pasta ex00.
+
+Devemos, neste arquivo, escrever a fução rush tendo as variáves largura(x) e a altura (y) como parâmetros.
+
+A função rush deve exibir na tela um retângulo de x caracteres de largura, e y caracteres de altura.
+
+O main será modificado e testado pelo avaliador.
+
+O Rush que meu time fez foi o Rush 04
+
+Exemplos:
+ao colocar rush(5,3) exibirá isto:
+ABBBC
+B   B
+CBBBA
+
+rush(5,1):
+ABBBC
+
+rush(1,1):
+A 
+
+rush(1,5):
+A 
+B 
+B 
+B
+C 
+
+rush(4,4):
+ABBC 
+B  B
+B  B
+CBBA
+
+
+
+
+
