@@ -7,3 +7,7 @@ find -type d,f | wc -l
 find, irá procurar os arquivos
 -type d,f - diz que o tipo de arquivos que procuramos são diretórios e arquivos
 wc -l irá contar o número de linhas listadas
+
+Depois do exercício, atualize as permissões do CHMOD como fizemos nos exercícos anteriores para não ter probelma na correção.
+exemplo:
+chmod 777 nomedoarquivo

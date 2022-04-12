@@ -45,3 +45,4 @@ escrevendo qualquer coisa nele, ou dando enter até a 40 linha, ou 40 espaço wh
 
 para alterar a data digitamos
 touch -t ANOMESDIAHORAMINUTO testShell00
+

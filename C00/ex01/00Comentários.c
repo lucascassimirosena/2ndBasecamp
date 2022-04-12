@@ -24,6 +24,8 @@ que pare de executar ao chegar no número 122.
 Somos apenas autorizados a utilizar while nos nossos programas.
 Não esqueça de deixar apenas os arquivos solicitados no pdf na pasta ao enviar para defesa.
 
+você pode usar o comando gcc *.c para compilar o arquivo.
+não esqueça de rodar o comando "norminette" para verificar se tudo esta de acordo com a norma
 */
 
 //Criado por lucassim

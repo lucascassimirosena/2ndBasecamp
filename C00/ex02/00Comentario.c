@@ -15,6 +15,9 @@ Neste exercício faremos exatamente a mesam coisa que no anterior porém de form
 fiz uma modificação que funcionou da mesam forma.
 
 O exercícoi pede para que o alfabeto seja escrito de trás para frente.
+
+você pode usar o comando gcc *.c para compilar o arquivo.
+não esqueça de rodar o comando "norminette" para verificar se tudo esta de acordo com a norma
 */
 
 // Criado por lucassim

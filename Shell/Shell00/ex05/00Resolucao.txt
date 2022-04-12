@@ -10,3 +10,8 @@ git ls-files:
 
 -i ou --ignored: mostra todos os ignorados.
 --exclude-standard é necessário utilizar ao usar a combinação com -i.
+
+
+Depois do exercício, atualize as permissões do CHMOD como fizemos nos exercícos anteriores para não ter probelma na correção.
+exemplo:
+chmod 777 arquivo

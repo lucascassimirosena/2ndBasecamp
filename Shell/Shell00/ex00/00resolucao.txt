@@ -22,3 +22,8 @@ escreva dessa forma:
 Echo "Z" > z 
 
 este comando irá escrever "Z" dentro (>) do novo arquivo que se chamará z.
+
+
+Depois de cada exercício, atualize as permissões do CHMOD como fizemos nos exercícos anteriores para não ter probelma na correção.
+exemplo:
+chmod 777 arquivo

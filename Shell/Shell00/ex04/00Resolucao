@@ -17,3 +17,7 @@ conforme o exemplo.
 
 Se você falhar na entrega, deverá comitar este arquivo novamente antes
 da próxima entrega.
+
+Depois do exercício, atualize as permissões do CHMOD como fizemos nos exercícos anteriores para não ter probelma na correção.
+exemplo:
+chmod 777 arquivo

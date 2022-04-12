@@ -13,3 +13,6 @@ grep é o comando que usaremos para filtrar as linhas contendo "ether" que são 
 awk '{print $2...}' irá formatar essa saída imprimindo as colunas 2, 3, 4 e 5 apenas. 
 note que exite também " " no comando print do awk. Isso adiciona um espaço extra pois no exemplo do pdf são 2 espaços.
 
+Depois do exercício, atualize as permissões do CHMOD como fizemos nos exercícos anteriores para não ter probelma na correção.
+exemplo:
+chmod 777 nomedoarquivo

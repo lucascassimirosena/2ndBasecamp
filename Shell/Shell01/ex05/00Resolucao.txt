@@ -12,3 +12,6 @@ mv nomeantigo \"\\\?\$\*\'MaRViN\'\*\$\?\\\"
 
 \ é um caractere de escape e podemos coloca-lo antes de cada caractere especial que desejamos que esteja no nome.
 
+Depois do exercício, atualize as permissões do CHMOD como fizemos nos exercícos anteriores para não ter probelma na correção.
+exemplo:
+chmod 777 nomedoarquivo

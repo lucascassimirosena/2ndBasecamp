@@ -22,3 +22,7 @@ tr - irá traduzir ou remover os caracteres, no exemplo ele está
 traduzindo espaços para vírgulas.
 tr -d significa "deletar"
 e \n é a quebra de linha, desta forma, ele irá deletar a quebra de linha.
+
+Depois do exercício, atualize as permissões do CHMOD como fizemos nos exercícos anteriores para não ter probelma na correção.
+exemplo:
+chmod 777 nomedoarquivo

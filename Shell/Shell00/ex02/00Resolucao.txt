@@ -43,3 +43,4 @@ lXXXXXXXXX 1 XX XX 5 Jun 1 22:20 test6 -> test0
 
 após otodos os arquivos estarem na pasta basta executar o comando tar -cf exo2.tar * para criar o arquivo que será entregue
 delete os demais arquivos, você deve sempre deixar na pasta somente o solicitado pelo pdf.
+

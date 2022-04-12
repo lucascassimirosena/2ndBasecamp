@@ -12,4 +12,6 @@ f indica que estamos procurando um arquivo
 -name "*.sh" indica que o nome que procuramos é qualquer um terminado em .sh
 -exec basename {} .sh \; é o comando que excluirá o .sh
 
-
+Depois do exercício, atualize as permissões do CHMOD como fizemos nos exercícos anteriores para não ter probelma na correção.
+exemplo:
+chmod 777 nomedoarquivo

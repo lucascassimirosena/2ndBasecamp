@@ -8,3 +8,4 @@ man ls
 m, irá colocar as vírgulas
 u, irá organizar por data de acesso
 p, irá colocar as barras
+

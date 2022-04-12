@@ -27,6 +27,8 @@ de CTRL-C + CTRL+V pois ai ndo está no pdf.
 
 
 você pode usar o comando gcc *.c para compilar o arquivo.
+não esqueça de rodar o comando "norminette" para verificar se tudo esta de acordo com a norma
+
 */
 
 //Criado por lucassim
