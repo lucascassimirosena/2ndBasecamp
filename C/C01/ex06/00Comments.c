@@ -10,18 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
-Este exercícoi pede para que possamos criar um ponteiro que aponte para um ponteiro
-que aponte para um ponteiro que aponte para um ponteiro que aponte para um ponteiro
-que aponte para um ponteiro que aponte para um ponteiro que aponte para um ponteiro
-que aponte para um ponteiro e que este tenha o valor 42 nele.
-
-faremos a mesma coiisa mas apontando o ponteiro do ponteiro do ponteiro do ponteiro
-do ponteiro do ponteiro do ponteiro do ponteiro do ponteiro.
-
-*/
-
-void    ft_ultimate_ft(int *********nbr)
+void    ft_strlen(char *str)
 {
-    *********nbr = 42;
+    int i;
+
+    i = 0;
+    while (str[i] != '\0')
+    {
+        i++;
+    }
 }
