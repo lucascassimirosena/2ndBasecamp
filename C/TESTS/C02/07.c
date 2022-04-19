@@ -2,10 +2,9 @@
 #include <stdlib.h>
 char	*ft_strupcase(char *str);
 
-int	main(void)
+int main()
 {
-	char str[] = "dfasda";
-	ft_strupcase(str);
-	printf("%s\n", str);
-	return (0);
+    char string[10] = "LuCaSsIm42";
+    printf("Answer: %s\n", ft_strupcase(string));
+    return (0);
 }

@@ -2,10 +2,9 @@
 #include <stdlib.h>
 char	*ft_strlowcase(char *str);
 
-int	main(void)
+int main()
 {
-	char str[] = "HAHAHAHA";
-	ft_strlowcase(str);
-	printf("%s\n", str);
-	return (0);
+    char string[10] = "LuCasSim42";
+    printf("Answer: %s\n", ft_strlowcase(string));
+    return (0);
 }
