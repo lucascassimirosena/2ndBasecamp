@@ -3,12 +3,12 @@
 
 int	ft_str_is_uppercase(char *str);
 
-int main(void)
+int	main(void)
 {
 	char *str;
 	
 	str = malloc(sizeof(char));
-	str = "asfadf";
+	str = "DBZDBZ";
 	printf("%d\n", ft_str_is_uppercase(str));
 	return (0);
 }
