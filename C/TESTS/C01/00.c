@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void	ft_ft(int *nbr);
+void	ft_ft(int *nbr); // Não use caso o seu main esteja no mesmo arquivo
 
 int	main(void)
 {
