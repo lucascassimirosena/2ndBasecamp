@@ -29,6 +29,14 @@ de CTRL-C + CTRL+V pois ai ndo está no pdf.
 você pode usar o comando gcc *.c para compilar o arquivo.
 não esqueça de rodar o comando "norminette" para verificar se tudo esta de acordo com a norma
 
+Você também pode fazer as compilações mais rápidamente usando um alias. Para cria-lo você digita no terminal:
+alias nomeexemplo="gcc *.c -Wall -Wextra -Werror && ./a.out"    <<<enter>>>
+
+este comando fará com que ao digitar nomeexemplo em uma pasta de arquivo, ele o compile e rode o arquivo indicado. Bem
+mais rápido do que ficar digitando o gcc manualmente toda vez que for corrigir.
+
+De nada.
+
 */
 
 //Criado por lucassim

@@ -29,3 +29,4 @@ int	ft_strcmp(char *s1, char *s2)
 	b = s2[i];
 	return (a - b);
 }
+
