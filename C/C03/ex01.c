@@ -6,17 +6,17 @@
 /*   By: lucassim <lucassim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/18 23:49:40 by lucassim          #+#    #+#             */
-/*   Updated: 2022/04/20 15:38:28 by lucassim         ###   ########.fr       */
+/*   Updated: 2022/04/20 21:47:03 by lucassim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-	int	i;
-	int	a;
-	int	b;
-	int	c;
-	int	d;
+	unsigned int	i;
+	int				a;
+	int				b;
+	int				c;
+	int				d;
 
 	i = 0;
 	while (s1[i] != '\0' && s2[i] != '\0' && i < n)
@@ -29,8 +29,8 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 		}
 		i++;
 	}
-	if (i < n && s2[i] != '\0' && s1[i] == '\0'
-		|| s1[i] != '\0' && s2[i] == '\0')
+	if ((i < n && s2[i] != '\0' && s1[i] == '\0')
+		|| (s1[i] != '\0' && s2[i] == '\0'))
 	{
 		c = s1[i];
 		d = s2[i];
