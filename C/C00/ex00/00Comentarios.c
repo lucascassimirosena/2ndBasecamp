@@ -27,7 +27,9 @@ de CTRL-C + CTRL+V pois ai ndo está no pdf.
 
 
 você pode usar o comando gcc *.c para compilar o arquivo.
-não esqueça de rodar o comando "norminette" para verificar se tudo esta de acordo com a norma
+não esqueça de rodar o comando "norminette" para verificar se tudo esta de acordo com a norma.
+Também é possível usar o comando watch -n0 norminette para fazer a norminette corrigir em tempo real se o código esta
+sendo feito dentro da norma.
 
 Você também pode fazer as compilações mais rápidamente usando um alias. Para cria-lo você digita no terminal:
 alias nomeexemplo="gcc *.c -Wall -Wextra -Werror && ./a.out"    <<<enter>>>
